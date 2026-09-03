@@ -1,0 +1,119 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+.env.*
+
+# ==========================
+# Jupyter
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# IDEs
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+*.db
+*.txt
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# Build / Distribution
+# ==========================
+build/
+dist/
+*.egg-info/
+
+# ==========================
+# Python Cache
+# ==========================
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# ==========================
+# Model Files
+# ==========================
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.keras
+*.onnx
+*.tflite
+
+# ==========================
+# Large Datasets
+# ==========================
+data/
+dataset/
+datasets/
+footage_data/
+*.csv
+*.parquet
+*.feather
+
+# Ignore ZIPs if needed
+*.zip
+*.tar
+*.gz
+
+# ==========================
+# Outputs
+# ==========================
+outputs/
+results/
+runs/
+checkpoints/
+wandb/
+tensorboard/
+*.png
+*.jpg
+
+# ==========================
+# Secrets
+# ==========================
+*.pem
+*.key
+credentials.json
+kaggle.json
+
+# ==========================
+# Temporary Files
+# ==========================
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ==========================
+# Node (if using frontend)
+# ==========================
+node_modules/
+.next/
+out/
