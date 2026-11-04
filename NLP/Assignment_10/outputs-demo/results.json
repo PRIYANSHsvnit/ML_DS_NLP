@@ -1,0 +1,24 @@
+{
+  "configuration": {
+    "train_size": 100,
+    "test_size": 20,
+    "random_state": 42,
+    "threads": 2,
+    "sequential": true
+  },
+  "embeddings": {
+    "word2vec": {
+      "dimension": 300,
+      "requested_analogies": {
+        "good - bad + excellent": "atrocious",
+        "delivery - late + fast": "early"
+      },
+      "analogy_accuracy": 0.2,
+      "analogy_examples": 20,
+      "average_macro_f1": 0.2857142857142857,
+      "average_seconds": 0.445,
+      "tfidf_weighted_macro_f1": 0.3103448275862069,
+      "tfidf_weighted_seconds": 0.023
+    }
+  }
+}
